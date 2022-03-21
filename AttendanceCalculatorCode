@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main() {    
+//attendence calculator by pennywise.io
+//this code is still in beta version*
+    int conducted, attended, tcbr, result, result1;
+
+    printf("Type in Total conducted: \n");
+    scanf("%d",&conducted);
+    printf("Type in Total attended: \n");
+    scanf("%d",&attended);
+    printf("Type in TCBR: \n");
+    scanf("%d",&tcbr);
+
+    // calculating result
+    result = attended + tcbr;
+    result1 = (result *100)/ conducted;
+    
+    printf("your attendence now is %d percent 👈\n", result1);
+    printf("=========================================\n");
+    
+    if(result1 < 60 && result1 >=50 ){
+        printf("Go to class regularly, you'll be fine 👍");
+    }
+    else if(result1 < 75 && result1 > 60 ){
+        printf("you'll be fine, don't worry 😁");
+    }
+    else if(result1 < 50){
+        printf("please be regular to class and get a medical certificate, or you're detained 😓");
+    }
+    else if( result1 < 30){
+        printf("you are detained 😔");
+    }
+    else if( result1 >= 75){
+        printf("You Are A Good boy 🥰");
+    }
+    else{
+        printf("try that again, enter a legit value 😏");
+    }
+    printf("\n=========================================\n");
+    return 0;
+    //code by hethwik
+}
