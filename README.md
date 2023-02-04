@@ -1,5 +1,5 @@
-# Penny
-Penny is an Code line Attendance calculator 
+# Attendance Calculator
+This is a Code line Attendance calculator 
 I made an attendance calculator for KLuniversity's erp calculation
 Steps:
    -open any compiler that can compile C Language (or) simply open ( https://www.onlinegdb.com/ )and select C language in the language menu.
